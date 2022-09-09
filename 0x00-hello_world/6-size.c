@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
  * main -Entry point of program.
- * print size of computer type.
- *
+ * 
  * Return: 0 if no error  
- * else
- * Return: non 0 value
  */
 int main(void)
 {

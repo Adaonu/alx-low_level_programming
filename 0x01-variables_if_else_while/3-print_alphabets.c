@@ -4,14 +4,14 @@
  *
  * print alphabet in lowercase and uppercase
  *
- * Return 0  alwats (succes)
+ * Return 0  always (success)
  */
 int main(void)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	{ 
+	{
 		putchar(letter);
 	}
 	for (letter = 'A'; letter <= 'Z'; letter++)

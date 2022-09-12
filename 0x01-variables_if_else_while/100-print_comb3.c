@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  * print all possible duifferent combo of two digits
  * prinit digit 1, digit 2
  *

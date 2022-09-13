@@ -7,8 +7,7 @@
  */
 int _putchar
 ={
-	/* print _putchar*/
-	int c;
+	(int c)
 	c = _putchar();
 
 	while (c != _putchar)

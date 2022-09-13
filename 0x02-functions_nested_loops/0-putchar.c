@@ -7,7 +7,8 @@
  */
 int _putchar
 ={
-	(int c)
+        void _putchar (void)
+         int c;
 	c = _putchar();
 
 	while (c != _putchar)

@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char _putchar = a;
+	char *sh = a;
 
-	while (_putchar)
+	while (*sh)
 	{
-		putchar(a);
-		a++;
+		_putchar(*sh);
+		sh++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 

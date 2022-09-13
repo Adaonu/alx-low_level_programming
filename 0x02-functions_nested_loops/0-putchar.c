@@ -6,7 +6,7 @@
  * Return: 0 always
  */
 int _putchar
-{
+{:=
 	int c;
 	c = _putchar();
 

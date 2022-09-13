@@ -9,10 +9,9 @@ int main(void)
 {
 	char *sh = "a";
 
-	for (*sh)
+	for (*sh = a; *sh <= z; *sh++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(*sh++);
 	}
 	_putchar('\n');
 	return (0);

@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-	char *sh = "a";
+	int *sh = a, z;
+	*sh = a
+	*sh = z
 
-	for (*sh = a; *sh <= z; *sh++)
+	for (*sh = 'a'; *sh <= 'z'; *sh++)
 	{
 		_putchar(*sh++);
 	}

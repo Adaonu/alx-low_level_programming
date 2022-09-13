@@ -11,7 +11,7 @@ int main(void)
 
 	for (_putchar = 0; _putchar <= 9; _putchar++)
 	{
-		putchar((_putchar);
+		putchar(_putchar);
 	}
 	putchar('\n');
 	return (0);

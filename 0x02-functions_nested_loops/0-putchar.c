@@ -7,13 +7,12 @@
  */
 int main(void)
 {
-	int *sh = a, z;
-	*sh = a
-	*sh = z
+	char *sh = "main";
 
-	for (*sh = 'a'; *sh <= 'z'; *sh++)
+	while (*sh)
 	{
-		_putchar(*sh++);
+		_putchar(*sh);
+		sh++
 	}
 	_putchar('\n');
 	return (0);

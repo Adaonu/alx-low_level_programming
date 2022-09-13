@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char *sh = a;
+	char *sh = "a";
 
-	while (*sh)
+	for (*sh)
 	{
 		_putchar(*sh);
 		sh++;

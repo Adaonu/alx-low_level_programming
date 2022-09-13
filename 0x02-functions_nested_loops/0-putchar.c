@@ -7,6 +7,7 @@
  */
 int _putchar
 ={
+	/* print _putchar*/
 	int c;
 	c = _putchar();
 
@@ -16,5 +17,5 @@ int _putchar
 	}
 	_putchar('\n');
 	return (0);
-}
+};
 

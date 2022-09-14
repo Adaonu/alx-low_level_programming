@@ -3,7 +3,7 @@
  * print_last_digit - function that prints the last digit of  a number
  * @n: is the int that will use for the argument for the function
  *
- * Return: 0 always
+ * Return: value of the last digit.
  */
 int print_last_digit(int n)
 {

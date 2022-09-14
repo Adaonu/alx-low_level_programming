@@ -7,10 +7,8 @@
  */
 int _isalpha(int c)
 {
-	int c;
-	char letter = i
 
-	if (c >= 'i', 'a', 'A' && c <= 'i', 'z', 'Z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}

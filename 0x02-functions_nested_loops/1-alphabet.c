@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * main - entry point
  * write a founction that prints the alphabet
  * in lowercase
  * followed by a new line.

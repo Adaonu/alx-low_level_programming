@@ -12,7 +12,7 @@ void jack_bauer(void)
 	int hour_remainder;
 	int mins_remainder;
 
-	while (hour <= 23)
+	while (hours <= 23)
 	{
 		while (minutes <= 59)
 		{
@@ -23,7 +23,7 @@ void jack_bauer(void)
 			_putchar(minutes /10 + '0');
 			_putchar(mins_remainder + '0');
 			minutes++;
-			_putchar('\n')
+			_putchar('\n');
 		}
 		hours++;
 		minutes = 0;

@@ -5,17 +5,18 @@
  *
  * Return: 0 always
  */
-int _putchar
-={
-        void _putchar (void)
-         int c;
-	c = _putchar();
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n')
 
-	while (c != _putchar)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
 	return (0);
-};
+}
 

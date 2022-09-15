@@ -32,7 +32,7 @@ int main(void)
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
 
-	while (i <= 97)
+	while (i <= 93)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
@@ -51,7 +51,7 @@ int main(void)
 		f2 = tmp;
 		f2o = tmpo;
 
-		if (i != 97)
+		if (i != 93)
 			printf(",");
 		else
 			printf("\n");

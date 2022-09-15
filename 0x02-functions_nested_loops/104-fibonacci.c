@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * numLength - returns and prints the firstb 98  numbers
+ * numLength - returns and prints the first 98 fibonacci  numbers
  * @num: number
  *
  * Return: number of digit
  */
+
 int numLength(int num)
 {
 	int length = 0;
@@ -30,7 +31,7 @@ int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
-	
+
 	while (i <= 98)
 	{
 		if (f1o > 0)

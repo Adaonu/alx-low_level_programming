@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- *
+ * Description:print even number < 4000000
  * return: 0
  */
 int main(void)

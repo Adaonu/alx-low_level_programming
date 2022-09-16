@@ -31,7 +31,10 @@ int main(void)
 			{
 				printf("BUZZ");
 			}
+			else
+				printf("%d ", num);
+			h++;
 		}
 	}
-	printf("%d\n")
+	return (0);
 }

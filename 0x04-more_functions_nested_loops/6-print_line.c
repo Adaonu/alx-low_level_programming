@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_line - function that draws a straight line 
- * @n: perameter
+ * print_line - prints a straight line
+ * @n: parameter
  * Return: returns nothing
  */
 

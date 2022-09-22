@@ -7,7 +7,6 @@
  * @size: Size of buffer.
  * Return: NO return.
  */
-
 void print_buffer(char *b, int size)
 {
 	int j, k, l;
@@ -28,6 +27,7 @@ void print_buffer(char *b, int size)
 				else
 					printf("  ");
 			}
+			printf(" ");
 			for (l = j; l < j + 10; l++)
 			{
 				if (l >= size)

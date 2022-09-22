@@ -2,7 +2,7 @@
 
 /**
  * cap_string - Capitalizes all letters of a string.
- * @S: input string
+ * @s: input string
  * Return: pointer to dest
  */
 

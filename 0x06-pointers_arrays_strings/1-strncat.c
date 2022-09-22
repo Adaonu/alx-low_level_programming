@@ -24,7 +24,6 @@ char *_strncat(char *dest, char *src, int n)
 		{
 			break;
 		}
-		
 		i1++;
 		i2++;
 	}

@@ -27,10 +27,11 @@ char *cap_string(char *s)
 				{
 					*(s + (x + 1)) = *(s + (x + 1)) - 32;
 				}
+
 				break;
 			}
 		}
-		x++
+		x++;
 	}
 	return (s);
 }

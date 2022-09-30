@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - point 
- * @argc: number
- * @argv: array
+ * main - point
+ * @argc: number of command line
+ * @argv: array that contains the program command line
  * Return: 0
  */
 

@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s == NULL)
 	{
-		fre(s);
+		free(s);
 		return (NULL);
 	}
 
@@ -47,3 +47,4 @@ char *str_concat(char *s1, char *s2)
 		s[k] = s2[j];
 
 	return (s);
+}

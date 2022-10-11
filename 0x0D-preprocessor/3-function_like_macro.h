@@ -1,4 +1,4 @@
-i#ifndef _ABS_
+#ifndef _ABS_
 
 #define _ABS_
 

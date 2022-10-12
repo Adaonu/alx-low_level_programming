@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 /**
- * struct 0p - Struct op.
+ * struct op - Struct op.
  * @op: The operator
  * @f: The function associated
  */
